@@ -1,7 +1,7 @@
 pipeline {
 	agent any
 	stages{
-		stage('Primera inicialización')}
+		stage('Primera inicialización'){
 			steps{
 				sh 'echo inicializando...'
 			}
